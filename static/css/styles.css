@@ -1,0 +1,116 @@
+.navbar {
+  border-radius: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-brand {
+  font-weight: 100;
+  float: none;
+}
+.nav-item {
+  font-weight: 100;
+}
+.navbar-nav .nav-item {
+  float: none;
+}
+.nav-link {
+  padding: 0px 20px;
+}
+.navbar-divider,
+.navbar-nav .nav-item+.nav-item,
+.navbar-nav .nav-link + .nav-link {
+  margin-left: 0;
+}
+@media (min-width: 34em) {
+  .navbar-brand {
+    float: left;
+  }
+  .navbar-nav .nav-item {
+    float: left;
+  }
+  .navbar-divider,
+  .navbar-nav .nav-item+.nav-item,
+  .navbar-nav .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+}
+
+
+
+.content {
+  padding-top: 50px;
+}
+.section {
+  padding: 30px 20px;
+}
+.sub-section {
+  margin: 20px 0px;
+}
+
+.header-dark {
+  background-color: #101015;
+}
+.header-black {
+  background-color: black;
+}
+.section-header {
+  font-weight: 100;
+}
+.sub-section-header {
+  font-weight: 200;
+}
+.header-dark .section-header, .header-black .section-header {
+  color: white;
+}
+
+.btn-highlight {
+  background-color: rgba(255,255,255, 0.2);
+  border: 3px solid white;
+  color: white;
+  font-weight: 100;
+}
+
+.card {
+  background-color: #F7F7F7;
+  border-radius: 0px;
+}
+.card-title {
+  font-weight: 300;
+}
+.card-text {
+  font-weight: 200;
+}
+.card-img-top {
+  border-radius: 0px;
+  height: 150px;
+  width: 100%;
+}
+
+.about img {
+  border-radius: 3px;
+  width: 250px;
+}
+.social-icons {
+  margin: 20px;
+}
+.social-icons li {
+  margin: 10px;
+}
+.social-icons i {
+  color: black;
+}
+
+.active {
+  border-radius: 3px;
+  background-color: rgb(109, 116, 127);
+}
+
+.color-white {
+  color: white;
+}
+
+
+
+
+
